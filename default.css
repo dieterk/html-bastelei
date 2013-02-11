@@ -1,0 +1,23 @@
+* {font-family: tahoma, verdana, helvetica, arial, sans-serif; font-size: medium;}
+
+body {background-color:silver; margin: 0px;}
+
+iframe.video {border: none; height: 385px; margin: auto; width: 640px;}
+
+section {border: thin dotted black; border-radius: 3px; display: block; margin: 1em auto; padding: 1em; width: 900px; height: 600px;}
+section h1 {font-size: x-large; font-variant: small-caps; font-weight: lighter;}
+
+.pagenav {list-style: none; margin: 0px auto; width:900px;}
+.pagenav li {display: inline; margin: 1em; padding: 0em 1em;}
+.pagenav li a {background-color: inherit; color: inherit; font-size: x-small; text-decoration: none;}
+.pagenav li a:hover {color: blue;}
+
+.topnav {background-color: black; border: thin dotted black; border-radius: 2px; color: white; list-style: none; margin: 0em auto; width:900px;}
+.topnav li {display: inline; margin: 1em;}
+.topnav li a {background-color: inherit; color: inherit; text-decoration: none;}
+.topnav li a:hover {background-color: blue;}
+
+.blurred {filter: blur(5px); -moz-filter: blur(5px); -ms-filter: blur(5px); -webkit-filter: blur(5px);}
+.sharp {filter: none; -moz-filter: none; -ms-filter: none; -webkit-filter: none;} 
+
+img#photo {display: none; left: 100px; position: fixed; top: 100px; z-index: 100;}
